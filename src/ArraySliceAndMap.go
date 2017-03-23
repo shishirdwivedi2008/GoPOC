@@ -8,7 +8,7 @@ import (
 )
 
 //Function whose return type is array.
-//Functio should return with type and memory size as well.
+//Function should return with type and memory size as well.
 func arrayFunction() (arr1 [100]int64) {
 	var arr [100]int64
 	for x := 0; x < 100; x++ {
